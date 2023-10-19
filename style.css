@@ -493,3 +493,349 @@ input[type='radio'] {
     .desserts-cakes {
         align-items: end;
     }
+    .section-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 1440px;
+    }
+    .header-4 {
+        text-align: center;
+        color: #0C0C0E;
+        font-family: 'Forum';
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        padding: 20px 0px 10px 0px;
+    }
+    .hr-contacts {
+        width: 50px;
+        height: 1px;
+        flex-shrink: 0;
+        background: #0C0C0E;
+        margin-top: 9px;
+        margin-bottom: 50px;
+    }
+    .contacts-lines {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 250px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    .contact-box {
+        margin: 0px 0px 0px 20px;
+    }
+    .contacts-header {
+        font: 'Inter';
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+    .contacts-header-2 {
+        margin-top: 40px;
+        font: 'Inter';
+        margin-bottom: 18px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+    .phone {
+        font: 'Inter';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        width: 450px;
+        height: 40px;
+        margin-bottom: 15px;
+    }
+    .img-map {
+        width: 696px;
+        height: 414px;
+        margin: 0px 20px 30px 15px;
+    }
+    .director {
+        font-weight: bold;
+    }
+    a[href^="tel:"] {
+        text-decoration: none;
+        color: #0C0C0E;
+    }
+    .link-contacts:hover {
+        color: #BB945F;
+        font-weight: 800;
+        cursor: pointer;
+    }
+    a[href^="mailto:"]{
+        text-decoration: none;
+        color: #0C0C0E;
+        font-weight: bold;  
+    }
+    .header-5 {
+        text-align: center;
+        color: #0C0C0E;
+        font-family: 'Forum';
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        padding: 20px 0px 10px 0px;
+    }
+    .card-section {
+        width: 740px;
+    }
+    .find-card {
+        font: 'Inter';
+        font-weight: 400px;
+        font-size: 30px; 
+        line-height: 36.31px;
+        letter-spacing: 0.02em;
+        margin-left: 158px;
+        margin-bottom: 20px;
+    }
+    .card-border {
+        border: solid;
+        border-width: 3px;
+        border-color: #BB945F;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 600px;
+        height: 386px;
+        margin: 0px ;
+        position: relative;
+    }
+    .card-field {
+       display: flex; 
+       flex-direction: row;
+       justify-content: space-between;
+       gap: 215px;
+       margin: 0px 0px 30px 0px;
+    }
+    .card-data {
+        background-color: #BB945F;
+        margin-left: 5px;
+        width: 560px;
+        height: 272px;
+        margin: 20px 20px 94px 20px;
+    }
+    .library-name {
+        margin-left: 20px;
+        padding-top: 40px;
+        font-size: 30px;
+        font-family: 'Forum';
+        font-weight: 400;
+    }
+    .card-form {
+        display: flex; 
+        flex-direction: column;
+        width: 700px;
+        height: 66px;
+    }
+    .input-box {
+        margin-right: 170px;
+    }
+    #name {
+        width: 520px;
+        height: 60px;
+        margin-top: 40px;
+        margin-left: 20px;   
+        border-radius: 10px;
+        font-family: 'Forum';
+        padding-left: 20px;
+        letter-spacing: 0.6px;
+        font-size: 30px;
+    }
+    #card {
+        width: 520px;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: 20px;   
+        border-radius: 10px;
+        font-family: 'Forum';
+        padding-left: 20px;
+        letter-spacing: 0.6px;
+        font-size: 30px;   
+    }
+    label {
+        cursor: default;
+    }
+    .check-the-card {
+            color: #0C0C0E;
+            text-align: center;
+            font-family: 'Inter';
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24.2px;
+            letter-spacing: 1px;
+            width: 242px;
+            height: 44px;
+            border-radius: 2px;
+            background-color: transparent; 
+            position: absolute;
+            top: 312px;
+            left: 158px;
+            cursor: pointer;
+           
+        }
+        .check-the-card:hover {
+            background-color: #BB945F;   
+        }
+        .card-rules {
+            display: flex; 
+            flex-direction: column;
+            text-align: end;
+            width: 456px;
+        }
+        .get-a-card {
+            height: 33px;
+            margin-top: 10px;
+            margin-bottom: 35px;   
+            font-family: 'Forum';
+            letter-spacing: 0.6px;
+            font-size: 30px;   
+            font-weight: 400;   
+            margin-right: 0px;
+        }
+        .text-card {
+            color: #0C0C0E;
+            font-family: 'Inter';
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0.4px;
+            margin-bottom: 35px;
+        }
+        .card-button-1 {
+            color: #0C0C0E;
+            font-family: 'Inter';
+            font-size: 10px;
+            line-height: 12.1px;
+            border-width: 1px;
+            border-radius: 2px;
+            padding: 10px, 0px, 10px, 0px;
+            background-color: transparent; 
+            cursor: pointer;
+            width: 75px;
+            height: 30px;
+            margin-right: 0px;
+            margin-left: 290px;
+        }
+        .card-button-2 {
+            color: #0C0C0E;
+            font-family: 'Inter';
+            font-size: 10px;
+            line-height: 12.1px;
+            border-width: 1px;
+            border-radius: 2px;
+            padding: 10px, 0px, 10px, 0px;
+            background-color: transparent; 
+            cursor: pointer;
+            width: 75px;
+            height: 30px;
+            margin-right: 0px;
+            margin-left: 10px;
+        }
+        .card-button-1:hover, .card-button-2:hover {
+            background-color: #BB945F;   
+        }
+        .footer-wrapper {
+            background-color:rgba(12, 12, 14, 1);
+            width: 1440px;
+            height: 250px;
+            color: rgba(255, 255, 255, 1);
+        }
+    .lib-adress {
+        width: 239px;
+        height: 40px;
+        font-family: 'Inter';
+        font-size: 15px;
+        line-height: 20px;
+        padding-left: 20px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+    }
+    .footer-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+    width: 229px;
+    height: 110px;
+    margin-left: 0px;
+    }
+    .footer-2{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        text-align: end;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        height: 40px;
+        padding-right: 20px;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .socials {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0px 20px 20px;
+    }
+    .hr-footer {
+        width: 1400px;
+        margin: 0px 20px 0px 20px;
+    }
+    .socials {
+        list-style: none;
+    }
+    .social-list-icon-2, .social-list-icon-3 {
+        margin-left: 20px;
+    }
+    .my-contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px 20px 30px 20px;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        height: 40px;
+        width: 1440px;
+        letter-spacing: 2px;
+    }
+    .footer-links-2 {
+        margin-right: 35px;
+    }
+    .footer-links-1, .footer-links-2 {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+    }
+    .footer-links-1:hover, .footer-links-2:hover{
+        color: #BB945F;  
+        font-weight: 700;
+    }
+    .year {
+        margin-left: 0px;
+    }
+    
