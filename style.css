@@ -224,3 +224,272 @@ input[type='radio'] {
     padding-left: 11px;
     letter-spacing: 0.1px;
 }
+.favorites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .favorite-1 {
+        position: relative;
+        border:  1px solid #000;
+        padding-left: 20px;
+        margin-bottom: 40px;
+        width: 550px;
+        height: 555px;
+        margin-left: 20px;
+        margin-top: 8px;
+        }
+    .favorite-2 {
+        position: relative;
+        border:  1px solid #000;
+        padding-left: 20px;
+        margin-bottom: 40px;
+        width: 550px;
+        height: 555px;
+        margin: 8px 59px 40px 0px;
+        }
+    .favorite-3 {
+        position: relative;
+        border:  1px solid #000;
+        padding-left: 20px;
+        margin-bottom: 40px;
+        width: 550px;
+        height: 555px;
+        margin-left: 20px;
+        }
+    .favorite-4 {
+        position: relative;
+        border:  1px solid #000;
+        padding-left: 20px;
+        margin-bottom: 40px;
+        width: 550px;
+        height: 555px;
+        margin: 0px 59px 40px 0px;
+        }
+    
+    .staff-header {
+        color: #000;
+        font-family: 'Forum';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 1.3px;
+        text-transform: capitalize;
+        margin-top: 14px;
+    }
+    .capitalized {
+        color: #000;
+        font-family: 'Inter';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; 
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .book-name {
+        padding: 15px 0px;
+        color: #000;
+        font-family: 'Inter';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        margin-top: 3px;
+    }
+    .book-description {
+        color: #000;
+        font-family: 'Inter';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; 
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        width: 357px;
+        height: 320px;
+        margin-left: 0px;
+    }
+    .hr-book {
+        margin-left: 0px; 
+        width: 60px;
+        border-bottom: 1px solid #BB945F;
+    }
+    .book-image {
+    position: absolute;
+    left: 390px;
+    top: 256px;
+    }
+    #favorite-section img {
+        overflow: clip;
+    }
+    .buy-button {
+        color: #0C0C0E;
+        position: absolute;
+        top: 510px;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        padding: 0;
+        margin-bottom: 15px;
+        width: 75px;
+        height: 30px;
+        background-color: transparent; 
+    }
+    .buy-button:hover {
+    cursor: pointer;
+    background-color: #BB945F;
+    }
+    .buy-button-disabled {
+        color: #BB945F;
+        border-color: #BB945F;
+        position: absolute;
+        top: 510px;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        padding: 0;
+        margin-bottom: 15px;
+        width: 75px;
+        height: 31px;
+        background-color: transparent; 
+    }
+    .header-3 {
+        text-align: center;
+        color: #0C0C0E;
+        font-family: 'Forum';
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        padding: 20px 0px 10px 0px;
+    }
+    .cs-description {
+        color: #0C0C0E;
+        width: 1400px;
+        height: 120px;
+        font-family: 'Inter';
+        line-height: 40px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .cs-description-part2 {
+        text-transform: uppercase;
+    }
+    .cs-price-list {
+        display: flex;
+        justify-content: space-between;
+        gap: 450px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+    .coffee-tea, .desserts-cakes {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .coffee-tea{
+        width:678px;
+        align-items: start;
+    }
+    .desserts-cakes{
+        width: 722px;
+        align-items: end;
+    }
+    .ct-header {
+        font-family: 'Forum';
+        color: #BB945F;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        margin-top: 40px;
+    }
+    .dc-header {
+        font-family: 'Forum';
+        color: #BB945F;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        margin-top: 40px;
+        text-align: end;
+    }
+    .menu-cs-item-1{
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        width: 450px;
+        height: 40px;
+        font: 'Inter';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 3px;
+        margin-left: 20px;
+    }
+    .menu-cs-item-2 {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        width: 500px;
+        height: 40px;
+        font: 'Inter';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 3px;
+        margin-right: 20px;
+        }
+    .item {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .cs-line {
+        align-self: center;
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        margin: 0px;
+    }
+    .line {
+        width: 100px;
+        height: 1px;
+        flex-shrink: 0;
+        background: #BB945F;
+        margin-top: 9px;
+        align-self: center;
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        margin: 5px 0px 0px 0px;
+    }
+    .price {
+        margin: 0px;
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        width: 21px;
+        height: 40px;
+        font-weight: 400;
+        font-family: 'Forum';
+    }
+    .desserts-cakes {
+        align-items: end;
+    }
